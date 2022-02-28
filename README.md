@@ -9,6 +9,12 @@ sensor: SHT35, BME280, CCS811
 
 <br>
 
+## こんな感じ
+<img src="image/line_mode.png" width="300">
+<img src="image/gauge_mode.png" width="300">
+
+<br>
+
 ## 使い方
 1. ラズベリーパイPicoで`pico/env_monitor.py`を実行。
     - BME280はmicropython-bme280をインストール [参考1](https://www.itmedia.co.jp/news/articles/2107/23/news022.html)
@@ -26,13 +32,14 @@ sensor: SHT35, BME280, CCS811
         serve -s dist
         ```
     - タスクスケジューラ(Windows)やcrontab(UNIX/Linux)などでログの名前を変更出来るようにする。例：`rename.cmd`(Windos用)
+    - Auto ReloadをON(ボタンが赤になっている状態)にしておくと、自動で値が更新される
 
 <br>
 
 ## 開発技術
 - IoT: Raspberry Pi Pico, I2Cセンサ
 - python
-- Web: Vue.js, Bootstrap-Vue
+- Web: Vue.js, Bootstrap-Vue, Chart.js
 
 <br>
 
