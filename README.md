@@ -17,7 +17,7 @@ sensor: SHT35, BME280, CCS811
 
 ## 使い方
 1. ラズベリーパイPicoで`pico/env_monitor.py`を実行。
-    - BME280はmicropython-bme280をインストール [参考1](https://www.itmedia.co.jp/news/articles/2107/23/news022.html)
+    - BME280はmicropython-bme280をインストール [参考1](https://github.com/SebastianRoll/mpy_bme280_esp8266)
     - CCS811は[参考2](https://gist.github.com/74th/90ba450bac528bab4a7f46960c88976f)より
     - センサ部分は用意出来たもの次第
 
